@@ -11,7 +11,7 @@ body{
     display: grid;
     grid-template-rows: min-content min-content min-content;
     grid-column: 1/2;
-    background-color: #334155;
+    background-color: #52525b;
     color: white;
     
 }
@@ -42,4 +42,22 @@ body{
     margin-bottom: 15px;
 
 }
+
+.mainbar{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header{
+    outline: 2px solid red;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
 
