@@ -49,15 +49,105 @@ body{
 }
 
 .header{
-    outline: 2px solid red;
+    box-shadow: 0px 3px 2px grey;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
 .search{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
 }
 
+.search_bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+    width: 35vw;
+    
+}
 
+.search_bar button{
+    border: 0;
+    padding: 0;
+    background:none;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.search_bar input{
+    appearance: none;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 25px;
+    width: 100%;
+    line-height: 1.5;
+    
+}
+
+.account_info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   
+
+}
+
+.account_info div{
+    font-weight: 700;
+}
+
+.cow{
+    height: 35px;
+    width: auto;
+    border-radius: 25px;
+    outline: 2px solid black;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+
+.welcome img{
+    height: 50px;
+    width: auto ;
+    border-radius: 25px;
+    outline: 2px solid black;
+}
+
+.greeting{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.controls button{
+    appearance: none;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: auto;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.content{
+    background-image: url(./images/cow\ pattern.jpeg);
+    position: relative;
+    z-index: -1;
+}
 
